@@ -1,0 +1,401 @@
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started server process [1311]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:53611 - "GET / HTTP/1.1" 200 OK
+╭───────────────────────────────────────────────────────── 🚀 Crew Execution Started ──────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Crew Execution Started                                                                                                                      │
+│  Name:                                                                                                                                       │
+│  crew                                                                                                                                        │
+│  ID:                                                                                                                                         │
+│  20cfaace-d9fe-44f9-b2a6-364e8d783174                                                                                                        │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Started                                                                                                                                │
+│  Name: Research about the user's query and generate insights: What is artificial intelligence?                                               │
+│  ID: 49543bc2-93ad-4960-9daa-0dd58025dde8                                                                                                    │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Researcher                                                                                                                           │
+│                                                                                                                                              │
+│  Task: Research about the user's query and generate insights: What is artificial intelligence?                                               │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────── 🔧 Tool Execution Started (#1) ───────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Tool: Search the internet with Serper                                                                                                       │
+│  Args: {"search_query": "artificial intelligence"}                                                                                           │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────────────────── Tool Output ─────────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  {'searchParameters': {'q': 'artificial intelligence', 'type': 'search', 'num': 10, 'engine': 'google'}, 'organic': [{'title': 'Artificial   │
+│  intelligence', 'link': 'https://en.wikipedia.org/wiki/Artificial_intelligence', 'snippet': 'Artificial intelligence (AI) is the capability  │
+│  of computational systems to perform tasks typically associated with human intelligence', 'position': 1}, {'title': 'What Is Artificial      │
+│  Intelligence (AI)?', 'link': 'https://www.ibm.com/think/topics/artificial-intelligence', 'snippet': 'Artificial intelligence (AI) is        │
+│  technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, ...',           │
+│  'position': 2}, {'title': 'What is Artificial Intelligence (AI)?', 'link':                                                                  │
+│  'https://cloud.google.com/learn/what-is-artificial-intelligence', 'snippet': 'Artificial intelligence (AI) is a set of technologies that    │
+│  empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to ...', 'position': 3}, {'title': 'What is  │
+│  Artificial Intelligence?', 'link': 'https://www.nasa.gov/what-is-artificial-intelligence/', 'snippet': 'Artificial intelligence refers to   │
+│  computer systems that can perform complex tasks normally done by human-reasoning, decision making, creating, etc.', 'position': 4},         │
+│  {'title': 'Artificial Intelligence – What is AI & Why It Matters', 'link':                                                                  │
+│  'https://www.sas.com/en_us/insights/analytics/what-is-artificial-intelligence.html', 'snippet': 'Artificial intelligence (AI) makes it      │
+│  possible for machines to learn from experience, adjust to new inputs and perform human-like tasks.', 'position': 5}, {'title': 'Artificial  │
+│  Intelligence (AI)', 'link': 'https://library.educause.edu/topics/infrastructure-and-research-technologies/artificial-intelligence-ai',      │
+│  'snippet': 'Artificial Intelligence or AI refers to the simulated human intelligence in machines or computers that are programmed to        │
+│  undertake tasks usually thought to ...', 'position': 6}, {'title': 'Artificial intel...                                                     │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Researcher                                                                                                                           │
+│                                                                                                                                              │
+│  Final Answer:                                                                                                                               │
+│  Artificial intelligence (AI) refers to the ability of computational systems to perform tasks typically associated with human intelligence,  │
+│  such as learning, reasoning, problem-solving, decision-making, and perception. AI systems are designed to mimic and augment human           │
+│  cognitive abilities, enabling machines to learn from experience, adapt to new inputs, and carry out complex tasks.                          │
+│                                                                                                                                              │
+│  Some key characteristics of AI include:                                                                                                     │
+│                                                                                                                                              │
+│  1. Machine Learning: AI systems can learn from data and improve their performance over time, without being explicitly programmed.           │
+│                                                                                                                                              │
+│  2. Natural Language Processing: AI can understand, interpret, and generate human language, enabling communication and interaction.          │
+│                                                                                                                                              │
+│  3. Computer Vision: AI can identify and process visual information, such as recognizing objects, faces, and scenes.                         │
+│                                                                                                                                              │
+│  4. Autonomous Decision-Making: AI systems can make decisions and take actions without direct human intervention, based on their             │
+│  understanding of the environment and goals.                                                                                                 │
+│                                                                                                                                              │
+│  AI has a wide range of applications, including:                                                                                             │
+│  - Robotics and automation                                                                                                                   │
+│  - Healthcare (e.g., disease diagnosis, drug discovery)                                                                                      │
+│  - Finance (e.g., stock trading, fraud detection)                                                                                            │
+│  - Transportation (e.g., self-driving cars, traffic optimization)                                                                            │
+│  - Entertainment (e.g., personalized recommendations, virtual assistants)                                                                    │
+│  - Education (e.g., adaptive learning, intelligent tutoring systems)                                                                         │
+│                                                                                                                                              │
+│  As AI technology continues to advance, it has the potential to transform various industries and aspects of our lives, while also raising    │
+│  important ethical and societal considerations around issues such as privacy, bias, and the impact on employment.                            │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Completed                                                                                                                              │
+│  Name:                                                                                                                                       │
+│  Research about the user's query and generate insights: What is artificial intelligence?                                                     │
+│  Agent:                                                                                                                                      │
+│  Researcher                                                                                                                                  │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Started                                                                                                                                │
+│  Name: Use the available insights to write a concise and informative response to the user's query: What is artificial intelligence?          │
+│  ID: 6123ee0b-fc08-4233-ac8d-55ff9921d000                                                                                                    │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Writer                                                                                                                               │
+│                                                                                                                                              │
+│  Task: Use the available insights to write a concise and informative response to the user's query: What is artificial intelligence?          │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Writer                                                                                                                               │
+│                                                                                                                                              │
+│  Final Answer:                                                                                                                               │
+│  Artificial intelligence (AI) refers to the ability of computational systems to perform tasks typically associated with human intelligence,  │
+│  such as learning, reasoning, problem-solving, decision-making, and perception. AI systems are designed to mimic and augment human           │
+│  cognitive abilities, enabling machines to learn from experience, adapt to new inputs, and carry out complex tasks.                          │
+│                                                                                                                                              │
+│  Some key characteristics of AI include:                                                                                                     │
+│                                                                                                                                              │
+│  1. Machine Learning: AI systems can learn from data and improve their performance over time, without being explicitly programmed.           │
+│                                                                                                                                              │
+│  2. Natural Language Processing: AI can understand, interpret, and generate human language, enabling communication and interaction.          │
+│                                                                                                                                              │
+│  3. Computer Vision: AI can identify and process visual information, such as recognizing objects, faces, and scenes.                         │
+│                                                                                                                                              │
+│  4. Autonomous Decision-Making: AI systems can make decisions and take actions without direct human intervention, based on their             │
+│  understanding of the environment and goals.                                                                                                 │
+│                                                                                                                                              │
+│  AI has a wide range of applications, including robotics and automation, healthcare (e.g., disease diagnosis, drug discovery), finance       │
+│  (e.g., stock trading, fraud detection), transportation (e.g., self-driving cars, traffic optimization), entertainment (e.g., personalized   │
+│  recommendations, virtual assistants), and education (e.g., adaptive learning, intelligent tutoring systems).                                │
+│                                                                                                                                              │
+│  As AI technology continues to advance, it has the potential to transform various industries and aspects of our lives, while also raising    │
+│  important ethical and societal considerations around issues such as privacy, bias, and the impact on employment.                            │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Completed                                                                                                                              │
+│  Name:                                                                                                                                       │
+│  Use the available insights to write a concise and informative response to the user's query: What is artificial intelligence?                │
+│  Agent:                                                                                                                                      │
+│  Writer                                                                                                                                      │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── Crew Completion ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Crew Execution Completed                                                                                                                    │
+│  Name:                                                                                                                                       │
+│  crew                                                                                                                                        │
+│  ID:                                                                                                                                         │
+│  20cfaace-d9fe-44f9-b2a6-364e8d783174                                                                                                        │
+│  Final Output: Artificial intelligence (AI) refers to the ability of computational systems to perform tasks typically associated with human  │
+│  intelligence, such as learning, reasoning, problem-solving, decision-making, and perception. AI systems are designed to mimic and augment   │
+│  human cognitive abilities, enabling machines to learn from experience, adapt to new inputs, and carry out complex tasks.                    │
+│                                                                                                                                              │
+│  Some key characteristics of AI include:                                                                                                     │
+│                                                                                                                                              │
+│  1. Machine Learning: AI systems can learn from data and improve their performance over time, without being explicitly programmed.           │
+│                                                                                                                                              │
+│  2. Natural Language Processing: AI can understand, interpret, and generate human language, enabling communication and interaction.          │
+│                                                                                                                                              │
+│  3. Computer Vision: AI can identify and process visual information, such as recognizing objects, faces, and scenes.                         │
+│                                                                                                                                              │
+│  4. Autonomous Decision-Making: AI systems can make decisions and take actions without direct human intervention, based on their             │
+│  understanding of the environment and goals.                                                                                                 │
+│                                                                                                                                              │
+│  AI has a wide range of applications, including robotics and automation, healthcare (e.g., disease diagnosis, drug discovery), finance       │
+│  (e.g., stock trading, fraud detection), transportation (e.g., self-driving cars, traffic optimization), entertainment (e.g., personalized   │
+│  recommendations, virtual assistants), and education (e.g., adaptive learning, intelligent tutoring systems).                                │
+│                                                                                                                                              │
+│  As AI technology continues to advance, it has the potential to transform various industries and aspects of our lives, while also raising    │
+│  important ethical and societal considerations around issues such as privacy, bias, and the impact on employment.                            │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────── Tracing Status ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Info: Tracing is disabled.                                                                                                                  │
+│                                                                                                                                              │
+│  To enable tracing, do any one of these:                                                                                                     │
+│  • Set tracing=True in your Crew/Flow code                                                                                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                                               │
+│  • Run: crewai traces enable                                                                                                                 │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+INFO:     127.0.0.1:53612 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53890 - "GET / HTTP/1.1" 200 OK
+╭───────────────────────────────────────────────────────── 🚀 Crew Execution Started ──────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Crew Execution Started                                                                                                                      │
+│  Name:                                                                                                                                       │
+│  crew                                                                                                                                        │
+│  ID:                                                                                                                                         │
+│  20cfaace-d9fe-44f9-b2a6-364e8d783174                                                                                                        │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Started                                                                                                                                │
+│  Name: Research about the user's query and generate insights: What is artificial intelligence?                                               │
+│  ID: 49543bc2-93ad-4960-9daa-0dd58025dde8                                                                                                    │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Researcher                                                                                                                           │
+│                                                                                                                                              │
+│  Task: Research about the user's query and generate insights: What is artificial intelligence?                                               │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────── 🔧 Tool Execution Started (#2) ───────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Tool: Search the internet with Serper                                                                                                       │
+│  Args: {"search_query": "what is artificial intelligence"}                                                                                   │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────────────────── Tool Output ─────────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  {'searchParameters': {'q': 'what is artificial intelligence', 'type': 'search', 'num': 10, 'engine': 'google'}, 'organic': [{'title':       │
+│  'What Is Artificial Intelligence (AI)?', 'link': 'https://www.ibm.com/think/topics/artificial-intelligence', 'snippet': 'AI is technology   │
+│  that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity and             │
+│  autonomy.', 'position': 1}, {'title': 'What is Artificial Intelligence?', 'link': 'https://www.nasa.gov/what-is-artificial-intelligence/',  │
+│  'snippet': 'Artificial intelligence refers to computer systems that can perform complex tasks normally done by human-reasoning, decision    │
+│  making, creating, etc.', 'position': 2}, {'title': 'Artificial intelligence', 'link':                                                       │
+│  'https://en.wikipedia.org/wiki/Artificial_intelligence', 'snippet': 'Artificial intelligence (AI) is the capability of computational        │
+│  systems to perform tasks typically associated with human intelligence', 'position': 3}, {'title': 'What is Artificial Intelligence (AI)?',  │
+│  'link': 'https://cloud.google.com/learn/what-is-artificial-intelligence', 'snippet': 'Artificial intelligence (AI) is a set of              │
+│  technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to ...', 'position': 4},   │
+│  {'title': 'What is Artificial intelligence (AI)?', 'link': 'https://www.mtu.edu/computing/ai/', 'snippet': 'Artificial intelligence (AI)    │
+│  encompasses the fields of computer and data science focused on building machines with human intelligence.', 'position': 5}, {'title':       │
+│  'What Is Artificial Intelligence? Definition, Uses, and Types', 'link':                                                                     │
+│  'https://www.coursera.org/articles/what-is-artificial-intelligence', 'snippet': 'Artificial intelligence (AI) refers to computer systems    │
+│  capable of performing complex tasks that historically only humans could do, such as ...', 'position': 6}, {'title': 'What is AI? -          │
+│  Artificial Intelligence Explained', 'link': 'https://aws.amazon.com/what-is/artificial-...                                                  │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Researcher                                                                                                                           │
+│                                                                                                                                              │
+│  Final Answer:                                                                                                                               │
+│  Artificial intelligence (AI) refers to the ability of computational systems to perform tasks typically associated with human intelligence,  │
+│  such as learning, reasoning, problem-solving, decision-making, and perception. AI systems are designed to mimic and augment human           │
+│  cognitive abilities, enabling machines to learn from experience, adapt to new inputs, and carry out complex tasks.                          │
+│                                                                                                                                              │
+│  Some key characteristics of AI include:                                                                                                     │
+│                                                                                                                                              │
+│  1. Machine Learning: AI systems can learn from data and improve their performance over time, without being explicitly programmed.           │
+│  2. Natural Language Processing: AI can understand, interpret, and generate human language, enabling communication and interaction.          │
+│  3. Computer Vision: AI can identify and process visual information, such as recognizing objects, faces, and scenes.                         │
+│  4. Autonomous Decision-Making: AI systems can make decisions and take actions without direct human intervention, based on their             │
+│  understanding of the environment and goals.                                                                                                 │
+│                                                                                                                                              │
+│  AI has a wide range of applications, including robotics and automation, healthcare (e.g., disease diagnosis, drug discovery), finance       │
+│  (e.g., stock trading, fraud detection), transportation (e.g., self-driving cars, traffic optimization), entertainment (e.g., personalized   │
+│  recommendations, virtual assistants), and education (e.g., adaptive learning, intelligent tutoring systems).                                │
+│                                                                                                                                              │
+│  As AI technology continues to advance, it has the potential to transform various industries and aspects of our lives, while also raising    │
+│  important ethical and societal considerations around issues such as privacy, bias, and the impact on employment. The development and        │
+│  responsible use of AI systems require a multidisciplinary approach, involving collaboration between computer scientists, ethicists,         │
+│  policymakers, and other stakeholders.                                                                                                       │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Completed                                                                                                                              │
+│  Name:                                                                                                                                       │
+│  Research about the user's query and generate insights: What is artificial intelligence?                                                     │
+│  Agent:                                                                                                                                      │
+│  Researcher                                                                                                                                  │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Started                                                                                                                                │
+│  Name: Use the available insights to write a concise and informative response to the user's query: What is artificial intelligence?          │
+│  ID: 6123ee0b-fc08-4233-ac8d-55ff9921d000                                                                                                    │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Writer                                                                                                                               │
+│                                                                                                                                              │
+│  Task: Use the available insights to write a concise and informative response to the user's query: What is artificial intelligence?          │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Agent: Writer                                                                                                                               │
+│                                                                                                                                              │
+│  Final Answer:                                                                                                                               │
+│  Artificial intelligence (AI) refers to the ability of computational systems to perform tasks typically associated with human intelligence,  │
+│  such as learning, reasoning, problem-solving, decision-making, and perception. AI systems are designed to mimic and augment human           │
+│  cognitive abilities, enabling machines to learn from experience, adapt to new inputs, and carry out complex tasks.                          │
+│                                                                                                                                              │
+│  Some key characteristics of AI include:                                                                                                     │
+│                                                                                                                                              │
+│  1. Machine Learning: AI systems can learn from data and improve their performance over time, without being explicitly programmed.           │
+│  2. Natural Language Processing: AI can understand, interpret, and generate human language, enabling communication and interaction.          │
+│  3. Computer Vision: AI can identify and process visual information, such as recognizing objects, faces, and scenes.                         │
+│  4. Autonomous Decision-Making: AI systems can make decisions and take actions without direct human intervention, based on their             │
+│  understanding of the environment and goals.                                                                                                 │
+│                                                                                                                                              │
+│  AI has a wide range of applications, including robotics and automation, healthcare (e.g., disease diagnosis, drug discovery), finance       │
+│  (e.g., stock trading, fraud detection), transportation (e.g., self-driving cars, traffic optimization), entertainment (e.g., personalized   │
+│  recommendations, virtual assistants), and education (e.g., adaptive learning, intelligent tutoring systems).                                │
+│                                                                                                                                              │
+│  As AI technology continues to advance, it has the potential to transform various industries and aspects of our lives, while also raising    │
+│  important ethical and societal considerations around issues such as privacy, bias, and the impact on employment. The development and        │
+│  responsible use of AI systems require a multidisciplinary approach, involving collaboration between computer scientists, ethicists,         │
+│  policymakers, and other stakeholders.                                                                                                       │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Task Completed                                                                                                                              │
+│  Name:                                                                                                                                       │
+│  Use the available insights to write a concise and informative response to the user's query: What is artificial intelligence?                │
+│  Agent:                                                                                                                                      │
+│  Writer                                                                                                                                      │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────── Crew Completion ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Crew Execution Completed                                                                                                                    │
+│  Name:                                                                                                                                       │
+│  crew                                                                                                                                        │
+│  ID:                                                                                                                                         │
+│  20cfaace-d9fe-44f9-b2a6-364e8d783174                                                                                                        │
+│  Final Output: Artificial intelligence (AI) refers to the ability of computational systems to perform tasks typically associated with human  │
+│  intelligence, such as learning, reasoning, problem-solving, decision-making, and perception. AI systems are designed to mimic and augment   │
+│  human cognitive abilities, enabling machines to learn from experience, adapt to new inputs, and carry out complex tasks.                    │
+│                                                                                                                                              │
+│  Some key characteristics of AI include:                                                                                                     │
+│                                                                                                                                              │
+│  1. Machine Learning: AI systems can learn from data and improve their performance over time, without being explicitly programmed.           │
+│  2. Natural Language Processing: AI can understand, interpret, and generate human language, enabling communication and interaction.          │
+│  3. Computer Vision: AI can identify and process visual information, such as recognizing objects, faces, and scenes.                         │
+│  4. Autonomous Decision-Making: AI systems can make decisions and take actions without direct human intervention, based on their             │
+│  understanding of the environment and goals.                                                                                                 │
+│                                                                                                                                              │
+│  AI has a wide range of applications, including robotics and automation, healthcare (e.g., disease diagnosis, drug discovery), finance       │
+│  (e.g., stock trading, fraud detection), transportation (e.g., self-driving cars, traffic optimization), entertainment (e.g., personalized   │
+│  recommendations, virtual assistants), and education (e.g., adaptive learning, intelligent tutoring systems).                                │
+│                                                                                                                                              │
+│  As AI technology continues to advance, it has the potential to transform various industries and aspects of our lives, while also raising    │
+│  important ethical and societal considerations around issues such as privacy, bias, and the impact on employment. The development and        │
+│  responsible use of AI systems require a multidisciplinary approach, involving collaboration between computer scientists, ethicists,         │
+│  policymakers, and other stakeholders.                                                                                                       │
+│                                                                                                                                              │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────── Tracing Status ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                              │
+│  Info: Tracing is disabled.                                                                                                                  │
+│                                                                                                                                              │
+│  To enable tracing, do any one of these:                                                                                                     │
+│  • Set tracing=True in your Crew/Flow code                                                                                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                                               │
+│  • Run: crewai traces enable                                                                                                                 │
+│                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+INFO:     127.0.0.1:53891 - "POST /predict HTTP/1.1" 200 OK
