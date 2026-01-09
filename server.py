@@ -1,6 +1,4 @@
-# rename .env.example to .env and add the following:
-# SERPER_API_KEY=your_serper_api_key
-# OPENAI_API_KEY=your_openai_api_key
+
 
 from crewai import Crew, Agent, Task, LLM
 import litserve as ls
